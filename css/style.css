@@ -800,3 +800,6 @@ height: 147px;
 background: transparent;
 margin-top: 24px;
 }
+.burger_menu{
+    display: none;
+}
