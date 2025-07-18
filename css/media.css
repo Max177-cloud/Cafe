@@ -1,3 +1,12 @@
+@media(max-width:1200px){
+.contact_box{
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    padding: 0 20px;
+}
+}
 @media(max-width:768px){
 .header_menu{
 display: none;
@@ -129,5 +138,23 @@ display: none;
 .menu_list_btn{
     flex-direction: column;
     align-items: center;
+}
+.contact_img_2{
+    display: none;
+}
+.input_name{
+    margin-right: 0;
+}
+.input_name{
+    display: block;
+    width: 100%;
+}
+.input_email{
+    display: block;
+    width: 100%;
+}
+.input_message{
+    display: block;
+    width: 100%;
 }
 }
