@@ -863,3 +863,23 @@ margin-top: 24px;
     color: #000;
     border: none;
 }
+.success{
+    width: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    box-sizing: border-box;
+    opacity: 0;
+    transition: 0.5s;
+}
+.form_active{
+    opacity: 1;
+}
